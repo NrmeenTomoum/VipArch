@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A723C6D67300D348D9 /* AppDelegate.swift */; };
+		68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */; };
+		68DCB9AC23C6D67300D348D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9AB23C6D67300D348D9 /* ViewController.swift */; };
+		68DCB9AF23C6D67300D348D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9AD23C6D67300D348D9 /* Main.storyboard */; };
+		68DCB9B223C6D67300D348D9 /* TentBearTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9B023C6D67300D348D9 /* TentBearTask.xcdatamodeld */; };
+		68DCB9B423C6D67300D348D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9B323C6D67300D348D9 /* Assets.xcassets */; };
+		68DCB9B723C6D67300D348D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */; };
+		68DCB9C223C6D67300D348D9 /* TentBearTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9C123C6D67300D348D9 /* TentBearTaskTests.swift */; };
+		68DCB9CD23C6D67300D348D9 /* TentBearTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DCB9BE23C6D67300D348D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DCB99C23C6D67300D348D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DCB9A323C6D67300D348D9;
+			remoteInfo = TentBearTask;
+		};
+		68DCB9C923C6D67300D348D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DCB99C23C6D67300D348D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DCB9A323C6D67300D348D9;
+			remoteInfo = TentBearTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68DCB9A423C6D67300D348D9 /* TentBearTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TentBearTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DCB9A723C6D67300D348D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68DCB9AB23C6D67300D348D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68DCB9AE23C6D67300D348D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68DCB9B123C6D67300D348D9 /* TentBearTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TentBearTask.xcdatamodel; sourceTree = "<group>"; };
+		68DCB9B323C6D67300D348D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68DCB9B623C6D67300D348D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68DCB9B823C6D67300D348D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DCB9BD23C6D67300D348D9 /* TentBearTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentBearTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DCB9C123C6D67300D348D9 /* TentBearTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentBearTaskTests.swift; sourceTree = "<group>"; };
+		68DCB9C323C6D67300D348D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DCB9C823C6D67300D348D9 /* TentBearTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentBearTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentBearTaskUITests.swift; sourceTree = "<group>"; };
+		68DCB9CE23C6D67300D348D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DCB9A123C6D67300D348D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9BA23C6D67300D348D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9C523C6D67300D348D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DCB99B23C6D67300D348D9 = {
+			isa = PBXGroup;
+			children = (
+				68DCB9A623C6D67300D348D9 /* TentBearTask */,
+				68DCB9C023C6D67300D348D9 /* TentBearTaskTests */,
+				68DCB9CB23C6D67300D348D9 /* TentBearTaskUITests */,
+				68DCB9A523C6D67300D348D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DCB9A523C6D67300D348D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9A423C6D67300D348D9 /* TentBearTask.app */,
+				68DCB9BD23C6D67300D348D9 /* TentBearTaskTests.xctest */,
+				68DCB9C823C6D67300D348D9 /* TentBearTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DCB9A623C6D67300D348D9 /* TentBearTask */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9A723C6D67300D348D9 /* AppDelegate.swift */,
+				68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */,
+				68DCB9AB23C6D67300D348D9 /* ViewController.swift */,
+				68DCB9AD23C6D67300D348D9 /* Main.storyboard */,
+				68DCB9B323C6D67300D348D9 /* Assets.xcassets */,
+				68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */,
+				68DCB9B823C6D67300D348D9 /* Info.plist */,
+				68DCB9B023C6D67300D348D9 /* TentBearTask.xcdatamodeld */,
+			);
+			path = TentBearTask;
+			sourceTree = "<group>";
+		};
+		68DCB9C023C6D67300D348D9 /* TentBearTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9C123C6D67300D348D9 /* TentBearTaskTests.swift */,
+				68DCB9C323C6D67300D348D9 /* Info.plist */,
+			);
+			path = TentBearTaskTests;
+			sourceTree = "<group>";
+		};
+		68DCB9CB23C6D67300D348D9 /* TentBearTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */,
+				68DCB9CE23C6D67300D348D9 /* Info.plist */,
+			);
+			path = TentBearTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DCB9A323C6D67300D348D9 /* TentBearTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DCB9D123C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTask" */;
+			buildPhases = (
+				68DCB9A023C6D67300D348D9 /* Sources */,
+				68DCB9A123C6D67300D348D9 /* Frameworks */,
+				68DCB9A223C6D67300D348D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TentBearTask;
+			productName = TentBearTask;
+			productReference = 68DCB9A423C6D67300D348D9 /* TentBearTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68DCB9BC23C6D67300D348D9 /* TentBearTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DCB9D423C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskTests" */;
+			buildPhases = (
+				68DCB9B923C6D67300D348D9 /* Sources */,
+				68DCB9BA23C6D67300D348D9 /* Frameworks */,
+				68DCB9BB23C6D67300D348D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DCB9BF23C6D67300D348D9 /* PBXTargetDependency */,
+			);
+			name = TentBearTaskTests;
+			productName = TentBearTaskTests;
+			productReference = 68DCB9BD23C6D67300D348D9 /* TentBearTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68DCB9C723C6D67300D348D9 /* TentBearTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DCB9D723C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskUITests" */;
+			buildPhases = (
+				68DCB9C423C6D67300D348D9 /* Sources */,
+				68DCB9C523C6D67300D348D9 /* Frameworks */,
+				68DCB9C623C6D67300D348D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DCB9CA23C6D67300D348D9 /* PBXTargetDependency */,
+			);
+			name = TentBearTaskUITests;
+			productName = TentBearTaskUITests;
+			productReference = 68DCB9C823C6D67300D348D9 /* TentBearTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DCB99C23C6D67300D348D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Nermeen;
+				TargetAttributes = {
+					68DCB9A323C6D67300D348D9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					68DCB9BC23C6D67300D348D9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 68DCB9A323C6D67300D348D9;
+					};
+					68DCB9C723C6D67300D348D9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 68DCB9A323C6D67300D348D9;
+					};
+				};
+			};
+			buildConfigurationList = 68DCB99F23C6D67300D348D9 /* Build configuration list for PBXProject "TentBearTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DCB99B23C6D67300D348D9;
+			productRefGroup = 68DCB9A523C6D67300D348D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DCB9A323C6D67300D348D9 /* TentBearTask */,
+				68DCB9BC23C6D67300D348D9 /* TentBearTaskTests */,
+				68DCB9C723C6D67300D348D9 /* TentBearTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DCB9A223C6D67300D348D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DCB9B723C6D67300D348D9 /* LaunchScreen.storyboard in Resources */,
+				68DCB9B423C6D67300D348D9 /* Assets.xcassets in Resources */,
+				68DCB9AF23C6D67300D348D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9BB23C6D67300D348D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9C623C6D67300D348D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DCB9A023C6D67300D348D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DCB9AC23C6D67300D348D9 /* ViewController.swift in Sources */,
+				68DCB9B223C6D67300D348D9 /* TentBearTask.xcdatamodeld in Sources */,
+				68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */,
+				68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9B923C6D67300D348D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DCB9C223C6D67300D348D9 /* TentBearTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DCB9C423C6D67300D348D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DCB9CD23C6D67300D348D9 /* TentBearTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68DCB9BF23C6D67300D348D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DCB9A323C6D67300D348D9 /* TentBearTask */;
+			targetProxy = 68DCB9BE23C6D67300D348D9 /* PBXContainerItemProxy */;
+		};
+		68DCB9CA23C6D67300D348D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DCB9A323C6D67300D348D9 /* TentBearTask */;
+			targetProxy = 68DCB9C923C6D67300D348D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68DCB9AD23C6D67300D348D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DCB9AE23C6D67300D348D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DCB9B623C6D67300D348D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DCB9CF23C6D67300D348D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68DCB9D023C6D67300D348D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DCB9D223C6D67300D348D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DCB9D323C6D67300D348D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68DCB9D523C6D67300D348D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TentBearTask.app/TentBearTask";
+			};
+			name = Debug;
+		};
+		68DCB9D623C6D67300D348D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TentBearTask.app/TentBearTask";
+			};
+			name = Release;
+		};
+		68DCB9D823C6D67300D348D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TentBearTask;
+			};
+			name = Debug;
+		};
+		68DCB9D923C6D67300D348D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KDEH69VUR;
+				INFOPLIST_FILE = TentBearTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tomoum.eg.TentBearTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TentBearTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DCB99F23C6D67300D348D9 /* Build configuration list for PBXProject "TentBearTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DCB9CF23C6D67300D348D9 /* Debug */,
+				68DCB9D023C6D67300D348D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DCB9D123C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DCB9D223C6D67300D348D9 /* Debug */,
+				68DCB9D323C6D67300D348D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DCB9D423C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DCB9D523C6D67300D348D9 /* Debug */,
+				68DCB9D623C6D67300D348D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DCB9D723C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DCB9D823C6D67300D348D9 /* Debug */,
+				68DCB9D923C6D67300D348D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68DCB9B023C6D67300D348D9 /* TentBearTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68DCB9B123C6D67300D348D9 /* TentBearTask.xcdatamodel */,
+			);
+			currentVersion = 68DCB9B123C6D67300D348D9 /* TentBearTask.xcdatamodel */;
+			path = TentBearTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68DCB99C23C6D67300D348D9 /* Project object */;
+}
