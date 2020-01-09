@@ -32,6 +32,8 @@
 		68DCB9F023C6DB0600D348D9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9EA23C6DB0600D348D9 /* HomeViewController.swift */; };
 		68DCB9F123C6DB0600D348D9 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9EB23C6DB0600D348D9 /* HomeInteractor.swift */; };
 		68DCB9F323C6FB3200D348D9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9F223C6FB3200D348D9 /* Loader.swift */; };
+		68E1AD0323C7491800B17B28 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1AD0123C7491800B17B28 /* User+CoreDataProperties.swift */; };
+		68E1AD0423C7491800B17B28 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1AD0223C7491800B17B28 /* User+CoreDataClass.swift */; };
 		697A14CBFE0FC65580797DF1 /* Pods_TentBearTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1EDBD14AB1683394D5E49 /* Pods_TentBearTask.framework */; };
 		6F943ADB4980B41414DED473 /* Pods_TentBearTask_TentBearTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */; };
 /* End PBXBuildFile section */
@@ -89,6 +91,8 @@
 		68DCB9EA23C6DB0600D348D9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		68DCB9EB23C6DB0600D348D9 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		68DCB9F223C6FB3200D348D9 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		68E1AD0123C7491800B17B28 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		68E1AD0223C7491800B17B28 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TentBearTaskTests/Pods-TentBearTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE0118E252274C93DCCAB53D /* Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D99F22AC8BC8CDA07C8D96E0 /* Pods-TentBearTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask/Pods-TentBearTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 		68DCB9A623C6D67300D348D9 /* TentBearTask */ = {
 			isa = PBXGroup;
 			children = (
+				68E1AD0023C7491800B17B28 /* CoreData */,
 				68DCB9E523C6DA9900D348D9 /* 🌅Images */,
 				68DCB9E423C6DA8C00D348D9 /* 📑Plist */,
 				68DCB9E323C6DA7B00D348D9 /* 🔨Sences */,
@@ -278,6 +283,15 @@
 			children = (
 			);
 			path = "🌅Images";
+			sourceTree = "<group>";
+		};
+		68E1AD0023C7491800B17B28 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				68E1AD0123C7491800B17B28 /* User+CoreDataProperties.swift */,
+				68E1AD0223C7491800B17B28 /* User+CoreDataClass.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,7 +551,9 @@
 				68DCB9F323C6FB3200D348D9 /* Loader.swift in Sources */,
 				68DCB9ED23C6DB0600D348D9 /* HomeWorker.swift in Sources */,
 				68DCB9EE23C6DB0600D348D9 /* HomeRouter.swift in Sources */,
+				68E1AD0323C7491800B17B28 /* User+CoreDataProperties.swift in Sources */,
 				68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */,
+				68E1AD0423C7491800B17B28 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

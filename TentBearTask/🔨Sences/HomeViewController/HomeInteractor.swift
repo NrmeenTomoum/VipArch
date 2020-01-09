@@ -14,7 +14,7 @@ import UIKit
 
 protocol HomeBusinessLogic
 {
-  func getListOfUsers()
+    func getListOfUsers()
 }
 
 protocol HomeDataStore
@@ -26,31 +26,31 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
 {
     var users: [Home.Users.Response]?
     
-  var presenter: HomePresentationLogic?
-  var worker: HomeWorker?
-  
-  // MARK: Do something
-  
-  func getListOfUsers()
-  {
-    worker = HomeWorker()
-    self.presenter?.presentLoader()
-    worker?.getListOfUsers(completionHandler: { (respond, errorCode) in
-        self.presenter?.stopLoader()
-        if let response = respond
-                  {
-                    self.users = response.data
-                    self.presenter?.presentListOfUsers(response: response.data!)
-                       }
-                  else if let error = errorCode
-                  {
-                    
-                    self.presenter?.presentAlertMessage(message: (error.rawValue))
-                  }
-        
-    })
+    var presenter: HomePresentationLogic?
+    var worker: HomeWorker?
     
-//    let response = Home.Something.Response()
-//    presenter?.presentSomething(response: response)
-  }
+    // MARK: Do something
+    
+    func getListOfUsers()
+    {
+        worker = HomeWorker()
+        self.presenter?.presentLoader()
+        worker?.getListOfUsers(completionHandler: { (respond, errorCode) in
+            self.presenter?.stopLoader()
+            if let response = respond
+            {
+                self.users = response.data
+                self.presenter?.presentListOfUsers(response: response.data!)
+            }
+            else if let error = errorCode
+            {
+                
+                self.presenter?.presentAlertMessage(message: (error.rawValue))
+            }
+            
+        })
+        
+        //    let response = Home.Something.Response()
+        //    presenter?.presentSomething(response: response)
+    }
 }

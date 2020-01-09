@@ -14,29 +14,29 @@ import UIKit
 
 protocol DetailsBusinessLogic
 {
-  func getUserInfo()
+    func getUserInfo()
 }
 
 protocol DetailsDataStore
 {
-var user: Home.Users.Response? { get set }
+    var user: Home.Users.Response? { get set }
 }
 
 class DetailsInteractor: DetailsBusinessLogic, DetailsDataStore
 {
     var user: Home.Users.Response?
     
-  var presenter: DetailsPresentationLogic?
-  var worker: DetailsWorker?
-  //var name: String = ""
-  
-  // MARK: Do something
-  
-  func getUserInfo()
-  {
- if   let response = user
- {
-    presenter?.presentUserInfo(response: response)
+    var presenter: DetailsPresentationLogic?
+    var worker: DetailsWorker?
+    //var name: String = ""
+    
+    // MARK: Do something
+    
+    func getUserInfo()
+    {
+        if   let response = user
+        {
+            presenter?.presentUserInfo(response: response)
+        }
     }
-  }
 }

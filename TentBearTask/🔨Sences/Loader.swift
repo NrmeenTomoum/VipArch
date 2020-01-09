@@ -10,7 +10,6 @@
 //  see http://clean-swift.com
 //
 
-
 import Foundation
 import UIKit
 import MBProgressHUD
