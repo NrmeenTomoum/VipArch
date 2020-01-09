@@ -12,6 +12,7 @@
 
 import UIKit
 import FCAlertView
+import CoreData
 protocol HomeDisplayLogic: class
 {
     func displayListOfUsers(viewModel: [Home.Users.Response])
@@ -94,6 +95,9 @@ class HomeViewController:  UITableViewController,HomeDisplayLogic
     
     func displayListOfUsers(viewModel: [Home.Users.Response]) {
         displayedUsers = viewModel
+        var setOfUsersFromCD: [NSManagedObject] = []
+        DBManger.fetchCD("User", dataRetrived: &setOfUsersFromCD)
+        print(setOfUsersFromCD)
         tableView.reloadData()
     }
     

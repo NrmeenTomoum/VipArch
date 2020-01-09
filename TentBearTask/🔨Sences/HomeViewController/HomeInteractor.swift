@@ -40,6 +40,9 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
             if let response = respond
             {
                 self.users = response.data
+                for user in self.users ?? [] {
+                    DBManger.save(user: user)
+                }
                 self.presenter?.presentListOfUsers(response: response.data!)
             }
             else if let error = errorCode
