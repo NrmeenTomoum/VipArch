@@ -3,20 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3EAD1BEA6334612372442DE8 /* Pods_TentBearTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D2B492EF305AC6DE5CD29 /* Pods_TentBearTaskTests.framework */; };
 		68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A723C6D67300D348D9 /* AppDelegate.swift */; };
 		68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */; };
-		68DCB9AC23C6D67300D348D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9AB23C6D67300D348D9 /* ViewController.swift */; };
 		68DCB9AF23C6D67300D348D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9AD23C6D67300D348D9 /* Main.storyboard */; };
 		68DCB9B223C6D67300D348D9 /* TentBearTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9B023C6D67300D348D9 /* TentBearTask.xcdatamodeld */; };
 		68DCB9B423C6D67300D348D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9B323C6D67300D348D9 /* Assets.xcassets */; };
 		68DCB9B723C6D67300D348D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */; };
 		68DCB9C223C6D67300D348D9 /* TentBearTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9C123C6D67300D348D9 /* TentBearTaskTests.swift */; };
 		68DCB9CD23C6D67300D348D9 /* TentBearTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */; };
+		68DCB9DE23C6D9E900D348D9 /* RequestUtilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9DB23C6D9E900D348D9 /* RequestUtilty.swift */; };
+		68DCB9DF23C6D9E900D348D9 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9DC23C6D9E900D348D9 /* RequestService.swift */; };
+		68DCB9E023C6D9E900D348D9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9DD23C6D9E900D348D9 /* APIClient.swift */; };
+		68DCB9EC23C6DB0600D348D9 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9E623C6DB0600D348D9 /* HomePresenter.swift */; };
+		68DCB9ED23C6DB0600D348D9 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9E723C6DB0600D348D9 /* HomeWorker.swift */; };
+		68DCB9EE23C6DB0600D348D9 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9E823C6DB0600D348D9 /* HomeRouter.swift */; };
+		68DCB9EF23C6DB0600D348D9 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9E923C6DB0600D348D9 /* HomeModels.swift */; };
+		68DCB9F023C6DB0600D348D9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9EA23C6DB0600D348D9 /* HomeViewController.swift */; };
+		68DCB9F123C6DB0600D348D9 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9EB23C6DB0600D348D9 /* HomeInteractor.swift */; };
+		68DCB9F323C6FB3200D348D9 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9F223C6FB3200D348D9 /* Loader.swift */; };
 		697A14CBFE0FC65580797DF1 /* Pods_TentBearTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1EDBD14AB1683394D5E49 /* Pods_TentBearTask.framework */; };
 		6F943ADB4980B41414DED473 /* Pods_TentBearTask_TentBearTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +56,6 @@
 		68DCB9A423C6D67300D348D9 /* TentBearTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TentBearTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DCB9A723C6D67300D348D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68DCB9AB23C6D67300D348D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68DCB9AE23C6D67300D348D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68DCB9B123C6D67300D348D9 /* TentBearTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TentBearTask.xcdatamodel; sourceTree = "<group>"; };
 		68DCB9B323C6D67300D348D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +67,16 @@
 		68DCB9C823C6D67300D348D9 /* TentBearTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentBearTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentBearTaskUITests.swift; sourceTree = "<group>"; };
 		68DCB9CE23C6D67300D348D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DCB9DB23C6D9E900D348D9 /* RequestUtilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestUtilty.swift; sourceTree = "<group>"; };
+		68DCB9DC23C6D9E900D348D9 /* RequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		68DCB9DD23C6D9E900D348D9 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		68DCB9E623C6DB0600D348D9 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		68DCB9E723C6DB0600D348D9 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		68DCB9E823C6DB0600D348D9 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		68DCB9E923C6DB0600D348D9 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		68DCB9EA23C6DB0600D348D9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		68DCB9EB23C6DB0600D348D9 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		68DCB9F223C6FB3200D348D9 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TentBearTaskTests/Pods-TentBearTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE0118E252274C93DCCAB53D /* Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D99F22AC8BC8CDA07C8D96E0 /* Pods-TentBearTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask/Pods-TentBearTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +121,6 @@
 				1BDCADF5B7D7953D4C96E119 /* Pods-TentBearTaskTests.debug.xcconfig */,
 				B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,12 +159,15 @@
 		68DCB9A623C6D67300D348D9 /* TentBearTask */ = {
 			isa = PBXGroup;
 			children = (
+				68DCB9E523C6DA9900D348D9 /* 🌅Images */,
+				68DCB9E423C6DA8C00D348D9 /* 📑Plist */,
+				68DCB9E323C6DA7B00D348D9 /* 🔨Sences */,
+				68DCB9E223C6DA6E00D348D9 /* 🖥Views */,
+				68DCB9E123C6DA6300D348D9 /* ⌨️Delegate */,
+				68DCB9DA23C6D9E900D348D9 /* NetWorkManger */,
 				68DCB9A723C6D67300D348D9 /* AppDelegate.swift */,
 				68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */,
-				68DCB9AB23C6D67300D348D9 /* ViewController.swift */,
-				68DCB9AD23C6D67300D348D9 /* Main.storyboard */,
 				68DCB9B323C6D67300D348D9 /* Assets.xcassets */,
-				68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */,
 				68DCB9B823C6D67300D348D9 /* Info.plist */,
 				68DCB9B023C6D67300D348D9 /* TentBearTask.xcdatamodeld */,
 			);
@@ -170,6 +190,60 @@
 				68DCB9CE23C6D67300D348D9 /* Info.plist */,
 			);
 			path = TentBearTaskUITests;
+			sourceTree = "<group>";
+		};
+		68DCB9DA23C6D9E900D348D9 /* NetWorkManger */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9DB23C6D9E900D348D9 /* RequestUtilty.swift */,
+				68DCB9DC23C6D9E900D348D9 /* RequestService.swift */,
+				68DCB9DD23C6D9E900D348D9 /* APIClient.swift */,
+			);
+			path = NetWorkManger;
+			sourceTree = "<group>";
+		};
+		68DCB9E123C6DA6300D348D9 /* ⌨️Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "⌨️Delegate";
+			sourceTree = "<group>";
+		};
+		68DCB9E223C6DA6E00D348D9 /* 🖥Views */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */,
+				68DCB9AD23C6D67300D348D9 /* Main.storyboard */,
+			);
+			path = "🖥Views";
+			sourceTree = "<group>";
+		};
+		68DCB9E323C6DA7B00D348D9 /* 🔨Sences */ = {
+			isa = PBXGroup;
+			children = (
+				68DCB9F223C6FB3200D348D9 /* Loader.swift */,
+				68DCB9E623C6DB0600D348D9 /* HomePresenter.swift */,
+				68DCB9E723C6DB0600D348D9 /* HomeWorker.swift */,
+				68DCB9E823C6DB0600D348D9 /* HomeRouter.swift */,
+				68DCB9E923C6DB0600D348D9 /* HomeModels.swift */,
+				68DCB9EA23C6DB0600D348D9 /* HomeViewController.swift */,
+				68DCB9EB23C6DB0600D348D9 /* HomeInteractor.swift */,
+			);
+			path = "🔨Sences";
+			sourceTree = "<group>";
+		};
+		68DCB9E423C6DA8C00D348D9 /* 📑Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "📑Plist";
+			sourceTree = "<group>";
+		};
+		68DCB9E523C6DA9900D348D9 /* 🌅Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "🌅Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,9 +485,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DCB9AC23C6D67300D348D9 /* ViewController.swift in Sources */,
+				68DCB9EC23C6DB0600D348D9 /* HomePresenter.swift in Sources */,
+				68DCB9E023C6D9E900D348D9 /* APIClient.swift in Sources */,
+				68DCB9DF23C6D9E900D348D9 /* RequestService.swift in Sources */,
+				68DCB9F123C6DB0600D348D9 /* HomeInteractor.swift in Sources */,
 				68DCB9B223C6D67300D348D9 /* TentBearTask.xcdatamodeld in Sources */,
 				68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */,
+				68DCB9DE23C6D9E900D348D9 /* RequestUtilty.swift in Sources */,
+				68DCB9EF23C6DB0600D348D9 /* HomeModels.swift in Sources */,
+				68DCB9F023C6DB0600D348D9 /* HomeViewController.swift in Sources */,
+				68DCB9F323C6FB3200D348D9 /* Loader.swift in Sources */,
+				68DCB9ED23C6DB0600D348D9 /* HomeWorker.swift in Sources */,
+				68DCB9EE23C6DB0600D348D9 /* HomeRouter.swift in Sources */,
 				68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
