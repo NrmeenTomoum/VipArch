@@ -46,6 +46,4 @@ class loader: NSObject {
         MBProgressHUD.hideAllHUDs(for: view, animated: true)
         view.isUserInteractionEnabled = true
     }
-    
-    
 }

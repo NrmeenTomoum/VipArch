@@ -29,8 +29,7 @@ class HomePresenter: HomePresentationLogic
   
   func presentListOfUsers(response: [Home.Users.Response])
   {
-    let viewModel = Home.Users.ViewModel()
-    viewController?.displayListOfUsers(viewModel: viewModel)
+    viewController?.displayListOfUsers(viewModel: response)
   }
     func stopLoader() {
         viewController?.stopIndecator()

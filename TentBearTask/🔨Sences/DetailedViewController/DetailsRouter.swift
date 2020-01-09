@@ -1,5 +1,5 @@
 //
-//  HomeRouter.swift
+//  DetailsRouter.swift
 //  TentBearTask
 //
 //  Created by Nrmeen Tomoum on 09/01/2020.
@@ -12,20 +12,20 @@
 
 import UIKit
 
-@objc protocol HomeRoutingLogic
+@objc protocol DetailsRoutingLogic
 {
   //func routeToSomewhere(segue: UIStoryboardSegue?)
 }
 
-protocol HomeDataPassing
+protocol DetailsDataPassing
 {
-  var dataStore: HomeDataStore? { get }
+  var dataStore: DetailsDataStore? { get }
 }
 
-class HomeRouter: NSObject, HomeRoutingLogic, HomeDataPassing
+class DetailsRouter: NSObject, DetailsRoutingLogic, DetailsDataPassing
 {
-  weak var viewController: HomeViewController?
-  var dataStore: HomeDataStore?
+  weak var viewController: DetailsViewController?
+  var dataStore: DetailsDataStore?
   
   // MARK: Routing
   
@@ -46,14 +46,14 @@ class HomeRouter: NSObject, HomeRoutingLogic, HomeDataPassing
 
   // MARK: Navigation
   
-  //func navigateToSomewhere(source: HomeViewController, destination: SomewhereViewController)
+  //func navigateToSomewhere(source: DetailsViewController, destination: SomewhereViewController)
   //{
   //  source.show(destination, sender: nil)
   //}
   
   // MARK: Passing data
   
-  //func passDataToSomewhere(source: HomeDataStore, destination: inout SomewhereDataStore)
+  //func passDataToSomewhere(source: DetailsDataStore, destination: inout SomewhereDataStore)
   //{
   //  destination.name = source.name
   //}

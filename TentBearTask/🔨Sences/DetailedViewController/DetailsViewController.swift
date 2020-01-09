@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  DetailsViewController.swift
 //  TentBearTask
 //
 //  Created by Nrmeen Tomoum on 09/01/2020.
@@ -11,21 +11,20 @@
 //
 
 import UIKit
-
-protocol HomeDisplayLogic: class
+import SDWebImage
+protocol DetailsDisplayLogic: class
 {
-  func displayListOfUsers(viewModel: Home.Users.ViewModel)
-    func displayIndecator()
-       func stopIndecator()
-        func createAlert(title: String, subTitle: String)
+    func displayUserInfo(viewModel: Home.Users.Response)
 }
 
-class HomeViewController: UIViewController, HomeDisplayLogic
+class DetailsViewController: UIViewController, DetailsDisplayLogic
 {
-  
-  var interactor: HomeBusinessLogic?
-  var router: (NSObjectProtocol & HomeRoutingLogic & HomeDataPassing)?
- var viewIndecator = loader ()
+    @IBOutlet weak var userImage: UIImageView!
+    
+    @IBOutlet weak var userInfo: UILabel!
+    var interactor: DetailsBusinessLogic?
+  var router: (NSObjectProtocol & DetailsRoutingLogic & DetailsDataPassing)?
+
   // MARK: Object lifecycle
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
@@ -45,9 +44,9 @@ class HomeViewController: UIViewController, HomeDisplayLogic
   private func setup()
   {
     let viewController = self
-    let interactor = HomeInteractor()
-    let presenter = HomePresenter()
-    let router = HomeRouter()
+    let interactor = DetailsInteractor()
+    let presenter = DetailsPresenter()
+    let router = DetailsRouter()
     viewController.interactor = interactor
     viewController.router = router
     interactor.presenter = presenter
@@ -73,35 +72,22 @@ class HomeViewController: UIViewController, HomeDisplayLogic
   override func viewDidLoad()
   {
     super.viewDidLoad()
-    getListOfUsers()
+    getUserInfo()
   }
   
   // MARK: Do something
-  func createAlert(title: String, subTitle: String) {
-       CAlert.createAlert(title: title, subTitle: subTitle,vc: self)
-  }
   
-  func displayIndecator()
-  {
-       viewIndecator.startIndecator(self.view)
-  }
-  func stopIndecator()
-  {
-      viewIndecator.stopIndecator(self.view)
-   }
   //@IBOutlet weak var nameTextField: UITextField!
   
-func displayListOfUsers(viewModel: Home.Users.ViewModel) {
-          
-      }
-      
-  func getListOfUsers()
+  func getUserInfo()
   {
-     interactor?.getListOfUsers()
+     interactor?.getUserInfo()
   }
+    
   
-  func displaySomething(viewModel: Home.Users.ViewModel)
+    func displayUserInfo(viewModel: Home.Users.Response)
   {
-    //nameTextField.text = viewModel.name
+    userImage.sd_setImage(with: URL(string: viewModel.avatar!), placeholderImage: UIImage(named: "new logo.png"))
+    userInfo.text = ("First Name :\(viewModel.first_name!)\n, Last Name \(viewModel.last_name!), \(viewModel.email!)")
   }
 }

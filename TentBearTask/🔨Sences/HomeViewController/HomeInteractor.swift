@@ -19,14 +19,15 @@ protocol HomeBusinessLogic
 
 protocol HomeDataStore
 {
-  //var name: String { get set }
+    var users: [Home.Users.Response]? { get set }
 }
 
 class HomeInteractor: HomeBusinessLogic, HomeDataStore
 {
+    var users: [Home.Users.Response]?
+    
   var presenter: HomePresentationLogic?
   var worker: HomeWorker?
-  //var name: String = ""
   
   // MARK: Do something
   
@@ -38,11 +39,13 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
         self.presenter?.stopLoader()
         if let response = respond
                   {
+                    self.users = response.data
                     self.presenter?.presentListOfUsers(response: response.data!)
                        }
                   else if let error = errorCode
                   {
-                  //  self.presenter?.presentAlertMessage(message: (error.hashValue))
+                    
+                    self.presenter?.presentAlertMessage(message: (error.rawValue))
                   }
         
     })
