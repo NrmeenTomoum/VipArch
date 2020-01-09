@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EAD1BEA6334612372442DE8 /* Pods_TentBearTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D2B492EF305AC6DE5CD29 /* Pods_TentBearTaskTests.framework */; };
 		68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A723C6D67300D348D9 /* AppDelegate.swift */; };
 		68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */; };
 		68DCB9AC23C6D67300D348D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9AB23C6D67300D348D9 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		68DCB9B723C6D67300D348D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DCB9B523C6D67300D348D9 /* LaunchScreen.storyboard */; };
 		68DCB9C223C6D67300D348D9 /* TentBearTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9C123C6D67300D348D9 /* TentBearTaskTests.swift */; };
 		68DCB9CD23C6D67300D348D9 /* TentBearTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */; };
+		697A14CBFE0FC65580797DF1 /* Pods_TentBearTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D1EDBD14AB1683394D5E49 /* Pods_TentBearTask.framework */; };
+		6F943ADB4980B41414DED473 /* Pods_TentBearTask_TentBearTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BDCADF5B7D7953D4C96E119 /* Pods-TentBearTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTaskTests/Pods-TentBearTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25D1EDBD14AB1683394D5E49 /* Pods_TentBearTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TentBearTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF5F55BDF33C358CCCC31C2 /* Pods-TentBearTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask.release.xcconfig"; path = "Target Support Files/Pods-TentBearTask/Pods-TentBearTask.release.xcconfig"; sourceTree = "<group>"; };
+		59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TentBearTask_TentBearTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BBFAAF360017E0D16D1EC /* Pods-TentBearTask-TentBearTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask-TentBearTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		68DCB9A423C6D67300D348D9 /* TentBearTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TentBearTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DCB9A723C6D67300D348D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DCB9A923C6D67300D348D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		68DCB9C823C6D67300D348D9 /* TentBearTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TentBearTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DCB9CC23C6D67300D348D9 /* TentBearTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentBearTaskUITests.swift; sourceTree = "<group>"; };
 		68DCB9CE23C6D67300D348D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TentBearTaskTests/Pods-TentBearTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0118E252274C93DCCAB53D /* Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99F22AC8BC8CDA07C8D96E0 /* Pods-TentBearTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask.debug.xcconfig"; path = "Target Support Files/Pods-TentBearTask/Pods-TentBearTask.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0D2B492EF305AC6DE5CD29 /* Pods_TentBearTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TentBearTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697A14CBFE0FC65580797DF1 /* Pods_TentBearTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EAD1BEA6334612372442DE8 /* Pods_TentBearTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F943ADB4980B41414DED473 /* Pods_TentBearTask_TentBearTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4E114CAEFA89E66F952F5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99F22AC8BC8CDA07C8D96E0 /* Pods-TentBearTask.debug.xcconfig */,
+				3CF5F55BDF33C358CCCC31C2 /* Pods-TentBearTask.release.xcconfig */,
+				BE0118E252274C93DCCAB53D /* Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig */,
+				648BBFAAF360017E0D16D1EC /* Pods-TentBearTask-TentBearTaskUITests.release.xcconfig */,
+				1BDCADF5B7D7953D4C96E119 /* Pods-TentBearTaskTests.debug.xcconfig */,
+				B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3652096832F0D13BA1295DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D1EDBD14AB1683394D5E49 /* Pods_TentBearTask.framework */,
+				59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */,
+				EB0D2B492EF305AC6DE5CD29 /* Pods_TentBearTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68DCB99B23C6D67300D348D9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				68DCB9C023C6D67300D348D9 /* TentBearTaskTests */,
 				68DCB9CB23C6D67300D348D9 /* TentBearTaskUITests */,
 				68DCB9A523C6D67300D348D9 /* Products */,
+				0F4E114CAEFA89E66F952F5C /* Pods */,
+				3652096832F0D13BA1295DA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68DCB9D123C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTask" */;
 			buildPhases = (
+				62E51DB78F3CD476A6AEBBC4 /* [CP] Check Pods Manifest.lock */,
 				68DCB9A023C6D67300D348D9 /* Sources */,
 				68DCB9A123C6D67300D348D9 /* Frameworks */,
 				68DCB9A223C6D67300D348D9 /* Resources */,
+				6382A9AD3F5F00AEAAB09E51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68DCB9D423C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskTests" */;
 			buildPhases = (
+				304EF0C76C720AF99C7B7B4E /* [CP] Check Pods Manifest.lock */,
 				68DCB9B923C6D67300D348D9 /* Sources */,
 				68DCB9BA23C6D67300D348D9 /* Frameworks */,
 				68DCB9BB23C6D67300D348D9 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68DCB9D723C6D67300D348D9 /* Build configuration list for PBXNativeTarget "TentBearTaskUITests" */;
 			buildPhases = (
+				320FDD5A2FA35E857F77E4E9 /* [CP] Check Pods Manifest.lock */,
 				68DCB9C423C6D67300D348D9 /* Sources */,
 				68DCB9C523C6D67300D348D9 /* Frameworks */,
 				68DCB9C623C6D67300D348D9 /* Resources */,
+				FD00B3F1E48A70D840F1A25C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304EF0C76C720AF99C7B7B4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TentBearTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320FDD5A2FA35E857F77E4E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TentBearTask-TentBearTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E51DB78F3CD476A6AEBBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TentBearTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6382A9AD3F5F00AEAAB09E51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TentBearTask/Pods-TentBearTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TentBearTask/Pods-TentBearTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TentBearTask/Pods-TentBearTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD00B3F1E48A70D840F1A25C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68DCB9A023C6D67300D348D9 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		68DCB9D223C6D67300D348D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99F22AC8BC8CDA07C8D96E0 /* Pods-TentBearTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		68DCB9D323C6D67300D348D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF5F55BDF33C358CCCC31C2 /* Pods-TentBearTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		68DCB9D523C6D67300D348D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDCADF5B7D7953D4C96E119 /* Pods-TentBearTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		68DCB9D623C6D67300D348D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35E686B07DA821888B0D918 /* Pods-TentBearTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		68DCB9D823C6D67300D348D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0118E252274C93DCCAB53D /* Pods-TentBearTask-TentBearTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		68DCB9D923C6D67300D348D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648BBFAAF360017E0D16D1EC /* Pods-TentBearTask-TentBearTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
