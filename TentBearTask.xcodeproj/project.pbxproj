@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3EAD1BEA6334612372442DE8 /* Pods_TentBearTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D2B492EF305AC6DE5CD29 /* Pods_TentBearTaskTests.framework */; };
+		68978A5223C9BD6B009FBE36 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68978A5123C9BD6B009FBE36 /* DetailsRouter.swift */; };
+		68978A5523C9C4B1009FBE36 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68978A5423C9C4B1009FBE36 /* TableViewCell.swift */; };
 		68C50D0023C7236F004C08FA /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFA23C7236F004C08FA /* DetailsPresenter.swift */; };
-		68C50D0123C7236F004C08FA /* DetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFB23C7236F004C08FA /* DetailsWorker.swift */; };
-		68C50D0223C7236F004C08FA /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFC23C7236F004C08FA /* DetailsRouter.swift */; };
-		68C50D0323C7236F004C08FA /* DetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFD23C7236F004C08FA /* DetailsModels.swift */; };
 		68C50D0423C7236F004C08FA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFE23C7236F004C08FA /* DetailsViewController.swift */; };
 		68C50D0523C7236F004C08FA /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C50CFF23C7236F004C08FA /* DetailsInteractor.swift */; };
 		68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DCB9A723C6D67300D348D9 /* AppDelegate.swift */; };
@@ -61,10 +60,9 @@
 		3CF5F55BDF33C358CCCC31C2 /* Pods-TentBearTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask.release.xcconfig"; path = "Target Support Files/Pods-TentBearTask/Pods-TentBearTask.release.xcconfig"; sourceTree = "<group>"; };
 		59E26188907189A68CC32CA2 /* Pods_TentBearTask_TentBearTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TentBearTask_TentBearTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		648BBFAAF360017E0D16D1EC /* Pods-TentBearTask-TentBearTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TentBearTask-TentBearTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TentBearTask-TentBearTaskUITests/Pods-TentBearTask-TentBearTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68978A5123C9BD6B009FBE36 /* DetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
+		68978A5423C9C4B1009FBE36 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		68C50CFA23C7236F004C08FA /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
-		68C50CFB23C7236F004C08FA /* DetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWorker.swift; sourceTree = "<group>"; };
-		68C50CFC23C7236F004C08FA /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
-		68C50CFD23C7236F004C08FA /* DetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModels.swift; sourceTree = "<group>"; };
 		68C50CFE23C7236F004C08FA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		68C50CFF23C7236F004C08FA /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
 		68DCB9A423C6D67300D348D9 /* TentBearTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TentBearTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,9 +148,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		68978A5323C9C489009FBE36 /* UserCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				68978A5423C9C4B1009FBE36 /* TableViewCell.swift */,
+			);
+			path = UserCustomCell;
+			sourceTree = "<group>";
+		};
 		68C50CF823C72337004C08FA /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				68978A5323C9C489009FBE36 /* UserCustomCell */,
 				68DCB9E623C6DB0600D348D9 /* HomePresenter.swift */,
 				68DCB9E723C6DB0600D348D9 /* HomeWorker.swift */,
 				68DCB9E823C6DB0600D348D9 /* HomeRouter.swift */,
@@ -166,10 +173,8 @@
 		68C50CF923C7234C004C08FA /* DetailedViewController */ = {
 			isa = PBXGroup;
 			children = (
+				68978A5123C9BD6B009FBE36 /* DetailsRouter.swift */,
 				68C50CFA23C7236F004C08FA /* DetailsPresenter.swift */,
-				68C50CFB23C7236F004C08FA /* DetailsWorker.swift */,
-				68C50CFC23C7236F004C08FA /* DetailsRouter.swift */,
-				68C50CFD23C7236F004C08FA /* DetailsModels.swift */,
 				68C50CFE23C7236F004C08FA /* DetailsViewController.swift */,
 				68C50CFF23C7236F004C08FA /* DetailsInteractor.swift */,
 			);
@@ -537,19 +542,18 @@
 				68DCB9E023C6D9E900D348D9 /* APIClient.swift in Sources */,
 				68DCB9DF23C6D9E900D348D9 /* RequestService.swift in Sources */,
 				68C50D0023C7236F004C08FA /* DetailsPresenter.swift in Sources */,
-				68C50D0123C7236F004C08FA /* DetailsWorker.swift in Sources */,
-				68C50D0223C7236F004C08FA /* DetailsRouter.swift in Sources */,
 				68C50D0523C7236F004C08FA /* DetailsInteractor.swift in Sources */,
+				68978A5523C9C4B1009FBE36 /* TableViewCell.swift in Sources */,
 				68DCB9F123C6DB0600D348D9 /* HomeInteractor.swift in Sources */,
 				68DCB9B223C6D67300D348D9 /* TentBearTask.xcdatamodeld in Sources */,
 				68DCB9A823C6D67300D348D9 /* AppDelegate.swift in Sources */,
 				68DCB9DE23C6D9E900D348D9 /* RequestUtilty.swift in Sources */,
-				68C50D0323C7236F004C08FA /* DetailsModels.swift in Sources */,
 				68C50D0423C7236F004C08FA /* DetailsViewController.swift in Sources */,
 				68DCB9EF23C6DB0600D348D9 /* HomeModels.swift in Sources */,
 				68DCB9F023C6DB0600D348D9 /* HomeViewController.swift in Sources */,
 				68DCB9F323C6FB3200D348D9 /* Loader.swift in Sources */,
 				68DCB9ED23C6DB0600D348D9 /* HomeWorker.swift in Sources */,
+				68978A5223C9BD6B009FBE36 /* DetailsRouter.swift in Sources */,
 				68DCB9EE23C6DB0600D348D9 /* HomeRouter.swift in Sources */,
 				68E1AD0323C7491800B17B28 /* User+CoreDataProperties.swift in Sources */,
 				68DCB9AA23C6D67300D348D9 /* SceneDelegate.swift in Sources */,
@@ -665,6 +669,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -718,6 +723,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

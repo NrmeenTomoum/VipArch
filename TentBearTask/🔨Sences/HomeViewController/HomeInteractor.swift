@@ -40,6 +40,7 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
             if let response = respond
             {
                 self.users = response.data
+                // Save for User in CoreData
                 for user in self.users ?? [] {
                     DBManger.save(user: user)
                 }
@@ -52,8 +53,5 @@ class HomeInteractor: HomeBusinessLogic, HomeDataStore
             }
             
         })
-        
-        //    let response = Home.Something.Response()
-        //    presenter?.presentSomething(response: response)
     }
 }
